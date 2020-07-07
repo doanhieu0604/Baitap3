@@ -1,5 +1,5 @@
 import React from "react";
-import Phone from "./phone";
+import Phone from "./itemphone";
 export default function Listphone() {
     return (
             <div id="smartphone" className="container-fluid pt-5 pb-5 bg-dark">
