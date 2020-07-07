@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import Baitap1 from "./Bai-tap1";
+// import Baitap2 from "./Bai-tap2";
+import Baitap3 from "./Bai-tap3";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Baitap1/> */}
+      {/* <Baitap2/> */}
+      <Baitap3/>
+    
     </div>
   );
 }
